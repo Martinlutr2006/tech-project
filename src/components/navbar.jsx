@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
  <nav className='flex justify-between h-16 p-2 bg-base-100 border-b'>
     <h1 className='text-2xl font-bold'> TechTrends <span>👌</span> </h1>
-    <div>
+    <div className='flex space-x-4'>
         <NavLink to={'/'} className={"btn btn-ghost btn-sm"}>
         <MdHomeWork />Home
         </NavLink>
