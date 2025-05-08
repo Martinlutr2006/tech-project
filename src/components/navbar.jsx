@@ -1,5 +1,7 @@
 import React from 'react'
-import { BsHouseFill } from 'react-icons/bs'
+import { MdHomeWork } from "react-icons/md";
+import { IoMdContacts } from "react-icons/io";
+import { FcAbout } from "react-icons/fc";
 import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
@@ -8,13 +10,13 @@ const Navbar = () => {
     <h1 className='text-2xl font-bold'> TechTrends <span>👌</span> </h1>
     <div>
         <NavLink to={'/'} className={"btn btn-ghost btn-sm"}>
-        <BsHouseFill/>Home
+        <MdHomeWork />Home
         </NavLink>
         <NavLink to={'/about'} className={"btn btn-ghost btn-sm"}>
-        <BsHouseFill/>About
+        <IoMdContacts />About
         </NavLink>
         <NavLink to={'/contact'} className={"btn btn-ghost btn-sm"}>
-        <BsHouseFill/>Contact
+        <FcAbout />Contact
         </NavLink>
     </div>
  </nav>
